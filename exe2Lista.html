@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucor Produto</title>
+</head>
+
+<body>
+    <script>
+        var nomeProduto = prompt('Por favor informe o nome do Produto')
+        var valorProduto = parseFloat(prompt('Agora informe o valor do produto'))
+        var valorcomLucro = valorProduto * 0.45 + valorProduto
+
+        if (valorProduto > 50.00) {
+            valorcomLucro = valorProduto * 0.30 + valorProduto
+            document.write(`O valor da venda do produto <strong>${nomeProduto}</strong> com lucro de 30% é de: R$${valorcomLucro}`)
+        }else{ 
+            document.write(`O valor da venda do produto <strong>${nomeProduto}</strong> com lucro 45% é de: R$${valorcomLucro}`)
+        } 
+    </script>
+</body>
+
+</html>
