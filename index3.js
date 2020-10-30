@@ -1,1 +1,1 @@
-var test = "isto é um tete"
+let test = "isto é um tete"
