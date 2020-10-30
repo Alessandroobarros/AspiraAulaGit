@@ -1,0 +1,1 @@
+Teste para deletar arquivo.
